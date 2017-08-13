@@ -5,14 +5,15 @@
     <ProjectGuid>6de8694c-443c-4fad-abf6-5c91959dca20</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>linear_reg_Grad_descent.py</StartupFile>
+    <StartupFile>numpy_refresher.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>linear_reg-gradient_descent</Name>
     <RootNamespace>linear_reg-Grad_descent</RootNamespace>
-    <InterpreterId>MSBuild|linear_reg|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>
+    </InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,6 +25,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="linear_reg_Grad_descent.py" />
+    <Compile Include="numpy_refresher.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="data.csv" />
