@@ -5,7 +5,7 @@
     <ProjectGuid>6de8694c-443c-4fad-abf6-5c91959dca20</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>numpy_refresher.py</StartupFile>
+    <StartupFile>SimpleSigmoidNN_LearningWeights.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="linear_reg_Grad_descent.py" />
+    <Compile Include="numpyQuiz.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="numpy_refresher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SimpleSigmoidNeuralNet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SimpleSigmoidNN_LearningWeights.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
