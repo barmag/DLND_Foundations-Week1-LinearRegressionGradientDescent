@@ -5,7 +5,7 @@
     <ProjectGuid>6de8694c-443c-4fad-abf6-5c91959dca20</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>SimpleSigmoidNN_LearningWeights.py</StartupFile>
+    <StartupFile>training_nn_gradientDescent.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,8 +37,12 @@
     <Compile Include="SimpleSigmoidNN_LearningWeights.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="training_nn_gradientDescent.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="binary.csv" />
     <Content Include="data.csv" />
   </ItemGroup>
   <ItemGroup>
